@@ -1,0 +1,304 @@
+body{
+    background: azure;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+form{
+  display: grid;
+  justify-items: center;
+  row-gap: 40px;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+#dots{
+  color: blue;
+}
+input{
+  width: 90%;
+  padding: 1rem;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+}
+input:focus{
+  outline: none;
+}
+button{
+  display: block;
+}
+button:focus{
+  outline: none;
+  background: green;
+}
+.link{
+  
+  text-align: center;
+}
+.btn{
+  width:90% ;
+  padding: 1rem;
+  border: none;
+  background: dodgerblue;
+}
+button.create{
+  padding: 1rem;
+  border: none;
+  background: royalblue;
+}
+   /*    ##### big screen ##### */
+@media screen and (min-width:720px){
+body{
+    margin-top: 30rem;
+  }
+h1{
+  font-size: 5rem;
+}
+input{
+  height: 50px;
+}
+input::placeholder{
+  font-size:2rem;
+}
+.btn{
+  height: 90px;
+  font-size: 2rem;
+}
+a{
+  font-size: 1.6rem;
+}
+.pt{
+  font-size: 1.6rem;
+}
+button.create{
+  height: 90px;
+  font-size: 2rem;
+}
+}
+body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.top{
+  background: lightblue;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+button.bt{
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+button.bt:focus{
+  outline: none;
+}
+.menu{
+  width: 70%;
+  background: dodgerblue;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a.zin{
+  display: block;
+  text-decoration: none;
+  color:black;
+  margin:0;
+  padding: 1rem;
+}
+nav ul li a.zin:focus{
+  background: crimson;
+  color:white;
+}
+nav li{
+  list-style: none;
+  padding: 0.7rem;
+  margin: 0;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.show{
+  display: block;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.one{
+  position: relative;
+  top: 100px;
+  left: 60px;
+  padding: 1rem;
+  width: 60%;
+  height: 50%;
+  display: block;
+}
+.two{
+  position: relative;
+  top: 100px;
+  left: 60px;
+  padding: 1rem;
+  width: 60%;
+  height: 50%;
+  display: block;
+}
+lin p{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+.p{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+.lin{
+  text-decoration: none;
+}
+.lin:hover{
+  background: crimson;
+  color:white;
+}
+hr{
+  background:black;
+  height: 2px;
+  position: relative;
+  top: 50px;
+}
+.hr{
+  background:black;
+  height: 2px;
+  position: relative;
+  top: 50px;
+}
+footer{
+  background: grey;
+  height: 200px;
+  width: 100vw;
+  margin-top:90px;
+}
+.page{
+  border: 2px solid black;
+  border-radius: 25px;
+  background: oldlace;
+  margin-top:120px;
+}
+ul.Num{
+    display: flex;
+   padding: 0;
+   height: 60px;
+}
+ul.Num li{
+  font-size: 1rem;
+  list-style: none;
+  border:2px solid black;
+  background: black;
+  margin: 4px;
+  padding: 0;
+}
+ul.Num li a{
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (min-width:720px){
+button.bt{
+  font-size: 6rem;
+}
+nav ul li a.zin{
+  padding: 2.6rem;
+}
+li{
+  list-style: none;
+  padding: 1.5rem;
+  margin: 0;
+  font-size: 3.3rem;
+}
+.one{
+  position: relative;
+  top: 190px;
+  left: 50px;
+  padding: 1rem;
+  width: 85%;
+  height: 70%;
+  display: block;
+}
+.two{
+  position: relative;
+  top: 190px;
+  left: 50px;
+  padding: 1rem;
+  width: 85%;
+  height: 70%;
+  display: block;
+}
+p{
+  color: black;
+  font-size: 3rem;
+  font-weight: 500px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+.p{
+  color: black;
+  font-size: 3rem;
+  font-weight: 500px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+hr{
+  background:black;
+  height: 2px;
+  position: relative;
+  top: 120px;
+}
+.hr{
+  background:black;
+  height: 2px;
+  position: relative;
+  top: 130px;
+}
+footer{
+  height: 400px;
+  margin-top:200px;
+  width: 100vw;
+}
+.page{
+  margin-top:120px;
+}
+ul.Num{
+    display: flex;
+   padding: 0;
+   height: 170px;
+}
+ul.Num li{
+  font-size: 4rem;
+  list-style: none;
+  border:2px solid black;
+  background: black;
+  margin: 30px;
+  padding: 1rem;
+}
+ul.Num li a{
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+}
